@@ -23,6 +23,7 @@ using namespace std;
 // Global Variable
 bool loggedIn = false;
 bool superAdmin = false;
+// initially we set it as false only (0) and when we create a super admin we set it to true (1)
 
 class Room
 {
